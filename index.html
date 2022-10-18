@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Chat application</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+<h1>Real time chat application</h1>
+<div class="container">
+</div>
+<div class="send">
+    <form id="send-container"  action="#" method="post">
+        <input type="text" name="messageInp" value="" id="messageInp">
+        <button class="btn" type="submit" name="button">Send</button>
+    </form>
+</div>
+<script  src="http://localhost:3000/socket.io/socket.io.js" charset="utf-8"></script>
+<script  src="js/client.js" charset="utf-8"></script>
+  </body>
+</html>
